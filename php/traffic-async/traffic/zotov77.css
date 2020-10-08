@@ -1,0 +1,56 @@
+.traffic {
+    text-align: center;
+}
+.traffic_header {
+    text-align: center;
+}
+
+.traffic__wraper {   
+    display: inline-block;
+    padding: 15px;
+    border: 3px solid Grey;
+    background: DarkSlateGrey;
+}
+
+.traffic_circle {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border: 3px solid Grey;
+    border-radius: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: WhiteSmoke;
+    
+}
+.traffic_circle:hover {
+    background: white;
+    color: black;
+}
+.red {
+    background: red;
+}
+
+
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
+}
+.red::before {
+    content: "STOP";
+}
+.yellow::before {
+    content: "WHITE";
+}
+.green::before {
+    content: "GO!";
+}
+.box-shadow {
+    box-shadow: 0 0 40px rgba(255,255,255,0.7);
+
+}

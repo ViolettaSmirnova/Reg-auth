@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://cdn.spbdnevnik.ru/uploads/block/image/386700/__medium_%D0%BF%D0%B5%D1%88%D0%B5%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4.jpg.jpg);
+    background-size: 100%;
+   }
+.traffic-header {
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px white;
+}
+.box {
+    margin: 50px auto 0;
+    border: 2px solid black;
+    padding: 20px;
+    width:200px;
+    background-color: black;
+    border-radius: 5%;
+}
+.rectangle {
+	width: 50px;
+	height: 450px;
+	background-color: black;
+	position: relative;
+	margin: 0 auto;
+}
+/*.red {
+    background-color: darkred;
+    color: darkred;
+}
+.yellow {
+    background-color: rgb(255,186,0);
+    color: rgb(255,186,0);
+}
+.green {
+    background-color: darkgreen;
+    color: darkgreen;
+}*/
+
+.red,.yellow,.green  {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 50%;
+  line-height: 150px;  /* подробнее про line-height */
+  margin: 7px auto;
+  text-align:center;
+  text-transform:uppercase;
+  font-size: 55px;
+  background-color: black;
+}
+
+
